@@ -39,9 +39,10 @@ Companies risk margin erosion due to inefficient pricing, low inventory turnover
 ## 📊 Visual Highlights
 Below are selected visuals from the report / dashboards. (If these are placeholders, replace with your actual screenshots in `/images`.)
 
-![Report Visual](images/vendor_report_page_1.png)
-![Report Visual](images/vendor_report_page_2.png)
-![Report Visual](images/vendor_report_page_3.png)
+<img width="1530" height="1980" alt="vendor_report_page_1" src="https://github.com/user-attachments/assets/26f2b949-a8d2-407a-9576-15ed85b9ec1b" />
+<img width="1530" height="1980" alt="vendor_report_page_2" src="https://github.com/user-attachments/assets/f6aade12-a6a9-4cab-a566-47b609c5cf27" />
+<img width="1530" height="1980" alt="vendor_report_page_3" src="https://github.com/user-attachments/assets/f23283e8-982d-4a10-81ff-b9cb1a79cad8" />
+
 
 ## ⚙️ Tech Stack
 - **Python**: pandas, numpy, matplotlib/seaborn for EDA and modeling
