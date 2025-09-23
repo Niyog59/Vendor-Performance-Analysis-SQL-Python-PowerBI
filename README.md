@@ -37,7 +37,6 @@ Companies risk profit decline due to inefficient pricing, low inventory turnover
 > See **Vendor Performance Report.pdf** and the notebooks for full details.
 
 ## 📊 Visual Highlights
-Below are selected visuals from the report / dashboards. 
 <img width="488" height="280" alt="Screenshot 2025-09-23 at 13 04 18" src="https://github.com/user-attachments/assets/4b2ae91b-aa43-408b-a318-aa1871635af4" />
 <img width="597" height="716" alt="Screenshot 2025-09-23 at 13 02 21" src="https://github.com/user-attachments/assets/c3505909-1813-4749-a940-230ce3a1ad64" />
 <img width="870" height="476" alt="Screenshot 2025-09-23 at 13 01 38" src="https://github.com/user-attachments/assets/aaf3afe5-9eb5-489b-8d01-efacf1cafd45" />
