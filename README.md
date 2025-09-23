@@ -75,7 +75,7 @@ Companies risk profit decline due to inefficient pricing, low inventory turnover
 - `get_vendor_summary.py` shows the KPI computations used throughout.
 
 ## 👤 About Me
-Hi, I’m **Niyog Uprety** — an aspiring **Data Scientist**.  
+Hi, I’m **Niyog Uprety**, an aspiring **Data Scientist**.  
 
 - 🎓 Undergraduate student in **Data Science**  
 - 📊 Passionate about turning raw data into actionable insights and building real-world analytics solutions  
