@@ -1,7 +1,7 @@
 # Vendor Performance Analysis
 
 ## 📌 Project Overview
-This project evaluates vendor performance and inventory efficiency in a retail/wholesale setting. It identifies underperforming brands, quantifies vendor contributions to sales and profit, measures the impact of bulk purchasing, flags slow-moving inventory, and statistically compares profitability models across vendor groups.
+This project evaluates vendor performance and inventory efficiency in a retail/wholesale setting. It identifies underperforming brands, quantifies vendor contributions to sales and profit, measures the impact of bulk purchasing, flags slow-moving inventory, and statistically compares profitability models across different vendor groups.
 
 **Core business questions**
 - Which vendors/brands are underperforming and need pricing or promotional adjustments?
@@ -11,7 +11,7 @@ This project evaluates vendor performance and inventory efficiency in a retail/w
 - Are there statistically significant differences between high- and low-performing vendors?
 
 ## 🧾 Business Context
-Companies risk margin erosion due to inefficient pricing, low inventory turnover, over-reliance on a few vendors, and obsolete stock. This repo provides a data-driven approach to mitigate these risks and improve decision-making.
+Companies risk profit decline due to inefficient pricing, low inventory turnover, over-reliance on a few vendors, and dead inventory. This repo provides a data-driven approach to mitigate these risks and improve decision-making.
 
 ## 📂 Repository Structure
 ```
@@ -27,7 +27,7 @@ Companies risk margin erosion due to inefficient pricing, low inventory turnover
 └── data/                            # (Optional) Raw CSVs used by ingestion script
 ```
 
-## 🔍 Key Findings (high level)
+## 🔍 Key Findings
 - **Underperforming Brands**: ~198 brands show low sales but high margins → candidates for targeted promos / price optimization.
 - **Vendor Concentration Risk**: Top 10 vendors ≈ 66% of purchases → diversify to reduce supply chain risk.
 - **Bulk Purchasing**: Large orders achieve ≈ 72% lower unit costs → supports bulk-buy strategy.
@@ -37,30 +37,31 @@ Companies risk margin erosion due to inefficient pricing, low inventory turnover
 > See **Vendor Performance Report.pdf** and the notebooks for full details.
 
 ## 📊 Visual Highlights
-Below are selected visuals from the report / dashboards. (If these are placeholders, replace with your actual screenshots in `/images`.)
+Below are selected visuals from the report / dashboards. 
+<img width="488" height="280" alt="Screenshot 2025-09-23 at 13 04 18" src="https://github.com/user-attachments/assets/4b2ae91b-aa43-408b-a318-aa1871635af4" />
+<img width="597" height="716" alt="Screenshot 2025-09-23 at 13 02 21" src="https://github.com/user-attachments/assets/c3505909-1813-4749-a940-230ce3a1ad64" />
+<img width="870" height="476" alt="Screenshot 2025-09-23 at 13 01 38" src="https://github.com/user-attachments/assets/aaf3afe5-9eb5-489b-8d01-efacf1cafd45" />
+<img width="555" height="548" alt="Screenshot 2025-09-23 at 13 02 42" src="https://github.com/user-attachments/assets/24810533-7ec9-454f-872f-c601aa2ecd31" />
 
-<img width="1530" height="1980" alt="vendor_report_page_1" src="https://github.com/user-attachments/assets/26f2b949-a8d2-407a-9576-15ed85b9ec1b" />
-<img width="1530" height="1980" alt="vendor_report_page_2" src="https://github.com/user-attachments/assets/f6aade12-a6a9-4cab-a566-47b609c5cf27" />
-<img width="1530" height="1980" alt="vendor_report_page_3" src="https://github.com/user-attachments/assets/f23283e8-982d-4a10-81ff-b9cb1a79cad8" />
 
 
 ## ⚙️ Tech Stack
 - **Python**: pandas, numpy, matplotlib/seaborn for EDA and modeling
-- **SQLite**: lightweight DB for ingestion & analysis
+- **SQLite**: light DB for ingestion & analysis
 - **Jupyter Notebooks**: reproducible analysis
-- **Power BI**: interactive stakeholder-ready dashboards
+- **Power BI**: interactive dashboards
 
-## 🧮 Key KPIs (computed in `get_vendor_summary.py`)
+## 🧮 KPIs (computed in `get_vendor_summary.py`)
 - **GrossProfit** = TotalSalesDollars − TotalPurchaseDollars  
 - **ProfitMargin** = (GrossProfit / TotalSalesDollars) × 100  
 - **StockTurnover** = TotalSalesQuantity / TotalPurchaseQuantity  
 - **SalesToPurchaseRatio** = TotalSalesDollars / TotalPurchaseDollars  
 
 ## 🧠 Methodology Notes
-- Robust EDA to identify outliers, zero/negative margins, and slow movers.
+- EDA to identify outliers, zero/negative margins, and slow movers.
 - Data cleaning with safe divisions and NA handling.
 - Correlation analysis to understand price vs. sales/profit dynamics.
-- Hypothesis testing to validate profitability differences.
+- Hypothesis testing to validate differences in profitability.
 
 ## ✅ Recommendations (business-facing)
 - Re-price and promote **low-sales, high-margin** brands to grow volume.
@@ -71,11 +72,21 @@ Below are selected visuals from the report / dashboards. (If these are placehold
 
 ## 🗂️ Credits & Files to Review First
 - Start with **Vendor Performance Report.pdf** for an executive read.
-- Then scan **Vendor Performance Analysis.ipynb** for the analytical backbone.
+- Then scan **Vendor Performance Analysis.ipynb** for the analytics part. 
 - `get_vendor_summary.py` shows the KPI computations used throughout.
 
----
+## 👤 About Me
+Hi, I’m **Niyog Uprety** — an aspiring **Data Scientist**.  
 
-> **Tip**: If your audience can’t open `.pbix`, add PNGs of the Power BI pages to `/images` and reference them above.
-> Consider adding a short Loom/GIF walkthrough of the dashboard.
+- 🎓 Undergraduate student in **Data Science**  
+- 📊 Passionate about turning raw data into actionable insights and building real-world analytics solutions  
+- 🌱 Currently working on projects that combine **finance, data, and machine learning**  
+- 💼 Open to internships and collaborations in **data analytics, data engineering, or quant research**  
+
+📬 **Let’s connect:**  
+- [LinkedIn](https://www.linkedin.com/in/niyog-uprety-177b9621a/)    
+- ✉️ Email: upretyyniyog@gmail.com
+
+
+
 
