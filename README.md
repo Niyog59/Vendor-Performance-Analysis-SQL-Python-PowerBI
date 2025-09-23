@@ -83,7 +83,7 @@ Hi, I’m **Niyog Uprety**, an aspiring **Data Scientist**.
 - 💼 Open to internships and collaborations in **data analytics, data engineering, or quant research**  
 
 📬 **Let’s connect:**  
-- [LinkedIn](https://www.linkedin.com/in/niyog-uprety-177b9621a/)    
+- Linkedin: (https://www.linkedin.com/in/niyog-uprety-177b9621a/)    
 - ✉️ Email: upretyyniyog@gmail.com
 
 
